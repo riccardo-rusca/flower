@@ -30,11 +30,11 @@ sys.path.insert(0, os.path.abspath('../../src/py'))
 # -- Project information -----------------------------------------------------
 
 project = u"Flower"
-copyright = u"2020 Adap GmbH"
+copyright = u"2021 Adap GmbH"
 author = u"The Flower Authors"
 
 # The full version, including alpha/beta/rc tags
-release = u"0.17.0"
+release = u"0.18.0"
 
 
 # -- General configuration ---------------------------------------------------
@@ -83,10 +83,8 @@ html_theme_options = {
     "use_edit_page_button": True,
 }
 
-
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
-
-# Favicon
+html_css_files = ["custom.css"]
